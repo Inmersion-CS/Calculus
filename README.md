@@ -4,7 +4,7 @@ Open-source interactive web software for learning and exploring calculus.
 
 > **Status:** Foundation v0.1 — the production-quality web foundation is under active development. Subject-specific calculus engines are roadmap items, not implemented features yet.
 
-**Live site target:** https://inmersion-cs.github.io/Calculus/
+**Live site:** https://inmersion-cs.github.io/Calculus/
 
 ## Why this project exists
 
