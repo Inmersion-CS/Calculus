@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible problem in the Calculus project.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve Calculus.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Give the smallest reliable sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Firefox 128, macOS 15
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots or other details that help explain the issue.
