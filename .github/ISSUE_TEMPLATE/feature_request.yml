@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a learning or product improvement.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: learner-need
+    attributes:
+      label: Learner need
+      description: What learning problem or user need should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed experience
+      description: Describe the smallest useful version of the idea.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Why this helps
+      description: Explain how this would improve understanding, practice, or accessibility.
